@@ -1,0 +1,32 @@
+body {
+  background-color: #ccc;
+}
+
+td {
+  width: 24px;
+  height: 24px;
+}
+
+.empty {
+  background-color: #888;
+}
+
+.black {
+  background-color: #333;
+}
+
+.white {
+  background-color: #eee;
+}
+
+.red {
+  background-color: #e33;
+}
+
+.blue {
+  background-color: #33e;
+}
+
+.green {
+  background-color: #3e3;
+}

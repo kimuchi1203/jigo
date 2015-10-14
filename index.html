@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="init()">
+  <div id="board"></div>
+  <button id="pass_button">pass</button>
+  <button id="add_player_button">add player</button>
+  <div id="display"></div>
+  <div id="prisoners"></div>
+  <script src="board.js"></script>
+  <script src="player.js"></script>
+  <script src="view.js"></script>
+  <script src="control.js"></script>
+  <script>
+  function init() {
+    board.init(9);
+    view.init(board);
+    control.init(board, view);
+    control.add_player();
+    control.add_player();
+  }
+  </script>
+</body>
+</html>
